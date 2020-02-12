@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <!-- 이 부분은 디폴트 -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>yiyu.design</title>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/png" sizes="32x32" href="src/logo.jpg" />
+    
+    <!-- og tag -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="http://yujin.design" />
+    <meta property="og:title" content="yiyu.design" />
+    <meta property="og:description" content="yi-yujin's portfolio" />
+    <meta property="og:image" content="https://agitated-hugle-e5369f.netlify.com/src/thumbnail.jpg" />
+
+    <!-- css -->
+    <link rel="stylesheet" href="default.css">
+
+    <style>
+        #sec-projects{
+            display: flex;
+            position: relative;
+            flex-wrap: wrap;
+            left: 20vw;
+            
+        }
+
+        .project{
+            display: flex;
+            flex-wrap: wrap;
+            position:relative;
+            width: 80vw;
+
+            /* overflow: hidden; */
+            background-position: center;
+            background-size: cover;
+        }
+
+        .project div{
+            height: 250px;
+        }
+
+/* Project 1: wave */
+        .p1_single1{
+            width: 25%;
+            background-image:url("src/works/wave_1.gif");
+            background-size: cover;
+        }
+
+        .p1_single2{
+            width: 25%;
+            background-image:url("src/works/wave_2.jpg");
+            background-size: cover;
+        }
+
+        .p1_double{
+            width: 50%;
+            background-image:url("src/works/wave_3.jpg");
+            background-size: cover;
+        }
+
+/* Project 2: gradient */
+        .p2_single1{
+            width: 25%;
+            background-image:url("src/works/gradient_2.jpg");
+            background-size: cover;
+        }
+
+        .p2_single2{
+            width: 25%;
+            background-image:url("src/works/gradient_3.jpg");
+            background-size: cover;
+        }
+
+        .p2_double{
+            width: 50%;
+            background-image:url("src/works/gradient_1.jpg");
+            background-size: cover;
+        }        
+
+    </style>
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+
+        <a href="index.html" class="header-logo">
+            <img src="src/logo.png" alt="logo">
+        </a>
+
+        <nav>
+            <ul>
+                <li class="works"><a href="works.html">Works</a></li>
+                <li class="thinking"><a href="thinking.html">thinking</a></li>
+                <li class="about"><a href="about.html">about</a></li>
+                <li class="Lab"><a href="lab.html">Lab</a></li>
+                <li class="Library"><a href="library.html">Library</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="sec-projects">
+        <div class="project">
+            <div class="p1_single1"></div>
+            <div class="p1_single2"></div>
+            <div class="p1_double"></div>
+
+            <div class="p2_double"></div>
+            <div class="p2_single1"></div>
+            <div class="p2_single2"></div>
+
+            <div class="p1_single1"></div>
+            <div class="p1_single2"></div>
+            <div class="p1_double"></div>
+
+            <div class="p2_double"></div>
+            <div class="p2_single1"></div>
+            <div class="p2_single2"></div>
+        </div>
+    </section>
+
+</body>
+
+</html>

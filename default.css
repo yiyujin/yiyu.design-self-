@@ -1,0 +1,48 @@
+        body{
+            background-color: #FAFAFA;
+            display:flex;
+        }
+
+/* header nav */
+        header{
+            /* display: inline; */
+            position: fixed;
+
+            height: 100%;
+            left: 7vw;
+            top: 70px;
+
+            font-family: "Apple SD Gothic Neo";
+        }
+
+        nav ul{
+            list-style: none; 
+            /* 기본 bullet point list 없애기 */
+        }
+
+        nav li{
+            /* nav text간 간격 */
+            margin: 12px;
+        }
+
+        a{
+            text-decoration: none; 
+            /* 파랑색 촌티 링크 없애기 */
+            color:#3D3D3D;
+            font-size: 1rem;
+            font-weight: 400;
+
+        }
+
+        .nav-active a{
+            font-weight:bolder;
+        }
+
+/* logo */
+        .header-logo{
+            padding: 40px;
+        }
+        .header-logo img{
+            height: 60px;
+            width: 60px;
+        }
